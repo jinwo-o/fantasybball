@@ -5,8 +5,8 @@ public class Main {
 //        String name = scanner.nextLine();
 //        System.out.println(name);
 
-        Player Klay =  new Player();
-        Klay.readStats();
+//        Player Klay =  new Player();
+//        Klay.readStats();
 //        Klay.setName("Klay Thompson");
 //        Stats stats = new Stats();
 //        stats.setAssists(1.8);
@@ -19,5 +19,8 @@ public class Main {
 //        Klay.setStats(stats);
 //        Klay.setGamesLeft(3);
 //        System.out.println(Klay.getStats());
+
+        Roster roster = new Roster();
+        roster.getTeam();
     }
 }
