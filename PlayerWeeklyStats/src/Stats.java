@@ -1,7 +1,11 @@
 import java.util.Scanner;
 
+// these stats describe a players statistics
+// throughtout the players 2019 season
 public class Stats {
 
+    private int id;
+    private int season;
     private int gamesLeft;
     private double points;
     private double threes;
@@ -12,6 +16,8 @@ public class Stats {
     private double turnovers;
     private double DD;
 
+    // call this method to read user input and put it into
+    // a stats class, gamesPlayed, PPG, APG, etc...
     public Stats readStats(){
 
         Scanner scanner = new Scanner(System.in);

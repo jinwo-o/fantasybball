@@ -1,3 +1,6 @@
+
+// use these constants for player statistics instead
+// of constantly making strings
 public class StatsConstants {
 
     public static final String PLAYER_NAME = "playerName";

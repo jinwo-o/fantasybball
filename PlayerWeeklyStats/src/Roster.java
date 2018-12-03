@@ -4,8 +4,11 @@ import java.util.Scanner;
 
 public class Roster {
 
+    private string fantasyTeamName;
     protected Map<String, Stats> roster = new HashMap<>();
 
+    // read player's names and statistics to fill
+    // your roster
     public Map<String, Stats> getTeam(){
 
         Stats stats = new Stats();
