@@ -24,6 +24,7 @@ public class Roster {
         return roster;
     }
 
+    // fix this
     public double totalCategory(Map<String, Stats> roster){
         roster.get()
     }
