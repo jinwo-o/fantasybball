@@ -1,4 +1,6 @@
-package Player;
+package FantasyBasketball.Player;
+
+import FantasyBasketball.Stats.Stats;
 
 // Player class represents a player in the NBA
 // there is a unique identifier id, position, and
@@ -9,6 +11,8 @@ public class Player {
 //    private String position;
 //    private String nbaTeamName;
     public Stats stats;
+
+
 
     // calculates the player's total expected stats
     // for that week, ex: 3 games, 2.0 3pm = 6 3pm for

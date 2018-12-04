@@ -1,4 +1,4 @@
-package Stats;//package FantasyBasketball;
+package FantasyBasketball.Stats;
 
 
 // use these constants for player statistics instead

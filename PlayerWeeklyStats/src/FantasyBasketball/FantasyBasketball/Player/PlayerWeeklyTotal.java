@@ -1,6 +1,6 @@
-package Player;
+package FantasyBasketball.Player;
 
-import Player.Player;
+//import FantasyBasketball.Stats.Stats;
 
 //package FantasyBasketball;
 //
