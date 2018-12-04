@@ -1,28 +1,20 @@
-import java.util.Scanner;
-import java.lang.Double;
+package Player;
 
 // Player class represents a player in the NBA
 // there is a unique identifier id, position, and
 // the team they play for
 public class Player {
-    private int id;
+//    private int id;
     private String name;
-    private String position;
-    private String nbaTeamName;
+//    private String position;
+//    private String nbaTeamName;
+    public Stats stats;
 
     // calculates the player's total expected stats
     // for that week, ex: 3 games, 2.0 3pm = 6 3pm for
     // the week
     public double weeklyStatsCalc(int gamesLeft, String category, double stats){
         return gamesLeft*stats;
-    }
-
-    public int getGamesLeft() {
-        return gamesLeft;
-    }
-
-    public void setGamesLeft(int gamesLeft) {
-        this.gamesLeft = gamesLeft;
     }
 
     public Stats getStats() {

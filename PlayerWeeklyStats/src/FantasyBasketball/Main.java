@@ -1,3 +1,7 @@
+import Player.Player;
+import Player.PlayerWeeklyTotal;
+import Stats.Stats;
+
 public class Main {
     public static void main(String[]args) {
 //        Scanner scanner = new Scanner(System.in);
@@ -20,7 +24,14 @@ public class Main {
 //        Klay.setGamesLeft(3);
 //        System.out.println(Klay.getStats());
 
-        Roster roster = new Roster();
-        roster.getTeam();
+//        Roster roster = new Roster();
+//        roster.getTeam();
+        Player player = new Player();
+        player.setName("Klay Thompson");
+        Stats stats = new Stats();
+        player.setStats(stats.readStats());
+        PlayerWeeklyTotal total = new PlayerWeeklyTotal();
+        System.out.println(stats.getAssists());
+        System.out.println(total.calculateWeeklyTotal(player));
     }
 }

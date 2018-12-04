@@ -1,20 +1,22 @@
+package FantasyBasketball.Stats;
+
 import java.util.Scanner;
 
 // these stats describe a players statistics
 // throughtout the players 2019 season
 public class Stats {
 
-    private int id;
+//    private int id;
     private int season;
-    private int gamesLeft;
-    private double points;
-    private double threes;
-    private double rebounds;
-    private double assists;
-    private double steals;
-    private double blocks;
-    private double turnovers;
-    private double DD;
+    public int gamesLeft;
+    public double points;
+    public double threes;
+    public double rebounds;
+    public double assists;
+    public double steals;
+    public double blocks;
+    public double turnovers;
+    public double DD;
 
     // call this method to read user input and put it into
     // a stats class, gamesPlayed, PPG, APG, etc...

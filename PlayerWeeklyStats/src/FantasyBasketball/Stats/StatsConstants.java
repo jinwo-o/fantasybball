@@ -1,3 +1,5 @@
+package Stats;//package FantasyBasketball;
+
 
 // use these constants for player statistics instead
 // of constantly making strings
