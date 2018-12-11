@@ -1,42 +1,63 @@
 //import java.io.FileNotFoundException;Exception;
-
-import java.io.BufferedReader;
+//
+//import java.io.BufferedReader;
+//import java.io.FileNotFoundException;
+//import java.io.FileReader;
+//import java.io.IOException;
+import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
-
+import java.io.PrintWriter;
+//
 public class Main {
-    public static void main(String[]args){
-        String csvFile = "/Users/JXH3JJU/fantasy/FantasyCSV.csv";
-        BufferedReader br = null;
-        String line = "";
-        String cvsSplitBy = ",";
+    public static void main(String[] args) throws FileNotFoundException{
+        PrintWriter pw = new PrintWriter(new File("test3.csv"));
+        StringBuilder sb = new StringBuilder();
+        sb.append("id");
+        sb.append(',');
+        sb.append("Name");
+        sb.append('\n');
 
-        try {
+        sb.append("3/8\"");
+        sb.append(',');
+        sb.append("Sanded Plywood");
+        sb.append('\n');
 
-            br = new BufferedReader(new FileReader(csvFile));
-            while ((line = br.readLine()) != null) {
+        pw.write(sb.toString());
+        pw.close();
+        System.out.println("done!");
+    }
+}
+//        String csvFile = "/Users/JXH3JJU/fantasy/FantasyCSV.csv";
+//        BufferedReader br = null;
+//        String line = "";
+//        String cvsSplitBy = ",";
+//
+//        try {
+//
+//            br = new BufferedReader(new FileReader(csvFile));
+//            while ((line = br.readLine()) != null) {
+//
+//                // use comma as separator
+//                String[] player = line.split(cvsSplitBy);
+//
+//                System.out.println("Player [name= " + player[0] + " , PPG=" + player[1] + "]");
+//
+//            }
+//
+//        } catch (FileNotFoundException e) {
+//            e.printStackTrace();
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        } finally {
+//            if (br != null) {
+//                try {
+//                    br.close();
+//                } catch (IOException e) {
+//                    e.printStackTrace();
+//                }
+//            }
+//        }
 
-                // use comma as separator
-                String[] player = line.split(cvsSplitBy);
-
-                System.out.println("Player [name= " + player[0] + " , PPG=" + player[1] + "]");
-
-            }
-
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        } finally {
-            if (br != null) {
-                try {
-                    br.close();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            }
-        }
 //        Scanner scanner = new Scanner(System.in);
 //        System.out.println("Enter Player Name");
 //        String name = scanner.nextLine();
@@ -69,5 +90,3 @@ public class Main {
 //        System.out.println(stats.getAssists());
 //        System.out.println(total.calculateWeeklyTotal(player));
 
-    }
-}
