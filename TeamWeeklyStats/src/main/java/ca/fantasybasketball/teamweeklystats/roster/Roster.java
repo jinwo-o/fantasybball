@@ -9,7 +9,8 @@ import java.util.List;
 public class Roster {
 
     //    private String fantasyTeamName;
-    protected List<Player> roster = new ArrayList<Player>();
+    public List<Player> roster = new ArrayList<Player>();
+
     // read player's names and statistics to fill
     // your roster
 //    public List<Player> getTeam(){
