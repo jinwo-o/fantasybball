@@ -8,6 +8,7 @@ public class AddStats {
 
     // add total games played
     public static Stats total(Stats total, Stats current){
+        total.setMinutes(total.getMinutes() + current.getMinutes());
         total.setPoints(total.getPoints() + current.getPoints());
         total.setThrees(total.getThrees() + current.getThrees());
         total.setRebounds(total.getRebounds() + current.getRebounds());

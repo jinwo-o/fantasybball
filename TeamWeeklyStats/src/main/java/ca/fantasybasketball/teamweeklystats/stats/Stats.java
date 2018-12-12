@@ -7,6 +7,7 @@ public class Stats {
     //    private int id;
     private int season;
     public int gamesLeft;
+    public int minutes;
     public double points;
     public double threes;
     public double rebounds;
@@ -31,6 +32,14 @@ public class Stats {
     }
 
     public void setGamesLeft(int gamesLeft) {
+        this.gamesLeft = gamesLeft;
+    }
+
+    public int getMinutes() {
+        return gamesLeft;
+    }
+
+    public void setMinutes(int gamesLeft) {
         this.gamesLeft = gamesLeft;
     }
 

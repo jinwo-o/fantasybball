@@ -26,6 +26,7 @@ public class TeamWeeklyStats {
             i++;
         }
 
+        System.out.println("Minutes: "+ totalStats.getMinutes());
         System.out.println("Threes: " + totalStats.getThrees());
         System.out.println("Rebounds: " + totalStats.getRebounds());
         System.out.println("Assists: " + totalStats.getAssists());
