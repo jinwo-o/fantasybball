@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5be570c5-b7da-4b42-ae87-196e68e8a87b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/fantasybasketball/teamweeklystats/TeamWeeklyStats.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PlayerWeeklyStats/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PlayerWeeklyStats/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PlayerWeeklyStats/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PlayerWeeklyStats/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PlayerWeeklyStats/PlayerWeeklyStats.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../PlayerWeeklyStats/PlayerWeeklyStats.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PlayerWeeklyStats/src/FantasyBasketball/FantasyBasketball/util/readCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PlayerWeeklyStats/src/FantasyBasketball/FantasyBasketball/util/readCSV.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PlayerWeeklyStats/src/FantasyBasketball/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PlayerWeeklyStats/src/FantasyBasketball/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ca/fantasybasketball/teamweeklystats/readers/ReadCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/fantasybasketball/teamweeklystats/readers/ReadCSV.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -174,7 +171,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="2552" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -228,7 +225,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544563099627" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544563100871" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
