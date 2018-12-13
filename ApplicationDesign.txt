@@ -1,4 +1,4 @@
-Project Name: ETW (Expectd Team Weeky)
+﻿Project Name: ETW (Expectd Team Weeky)
 
 Entities
 
@@ -73,3 +73,12 @@ Sample file:
 12,C. J. Miles, 12.5, 3.3, 4.2, 5.7, 0.6, 0.3, 1.2, 0
 13,Delon Wright, 18.5, 2.3, 4.2, 5.7, 0.6, 0.3, 1.2, 0
 
+Add:
+- Insert player name to extract stats from API
+- What if more than 10 players play in 1 day
+- Next Task: Work on FG, and FT
+- Incorporate SQL for querying
+-- Design a Database
+
+asp.net framework
+svg for frontend

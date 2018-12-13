@@ -1,5 +1,7 @@
 package ca.fantasybasketball.teamweeklystats.stats;
 
+import ca.fantasybasketball.teamweeklystats.model.Stats;
+
 public class AddStats {
 
     private AddStats()

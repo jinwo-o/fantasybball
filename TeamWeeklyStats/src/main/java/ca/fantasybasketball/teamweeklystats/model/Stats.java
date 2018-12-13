@@ -1,4 +1,4 @@
-package ca.fantasybasketball.teamweeklystats.stats;
+package ca.fantasybasketball.teamweeklystats.model;
 
 // these stats describe a players statistics
 // through the players 2019 season
@@ -6,8 +6,8 @@ package ca.fantasybasketball.teamweeklystats.stats;
 public class Stats {
     //    private int id;
     private int season;
-    public int gamesLeft;
-    public int minutes;
+    private int gamesLeft;
+    public double minutes;
     public double points;
     public double threes;
     public double rebounds;
@@ -16,6 +16,8 @@ public class Stats {
     public double blocks;
     public double turnovers;
     public double DD;
+
+    // add toString
 
     // add readStats method
 
@@ -35,12 +37,12 @@ public class Stats {
         this.gamesLeft = gamesLeft;
     }
 
-    public int getMinutes() {
-        return gamesLeft;
+    public double getMinutes() {
+        return minutes;
     }
 
-    public void setMinutes(int gamesLeft) {
-        this.gamesLeft = gamesLeft;
+    public void setMinutes(double minutes) {
+        this.minutes = minutes;
     }
 
     public double getPoints() {

@@ -1,8 +1,8 @@
 package ca.fantasybasketball.teamweeklystats.readers;
 
-import ca.fantasybasketball.teamweeklystats.player.Player;
-import ca.fantasybasketball.teamweeklystats.roster.Roster;
-import ca.fantasybasketball.teamweeklystats.stats.Stats;
+import ca.fantasybasketball.teamweeklystats.model.Player;
+import ca.fantasybasketball.teamweeklystats.model.Roster;
+import ca.fantasybasketball.teamweeklystats.model.Stats;
 import com.opencsv.CSVReader;
 
 import java.io.FileReader;
@@ -33,17 +33,18 @@ public class ReadCSV {
             player.setPosition(line[2]);
             stats.setSeason(Integer.parseInt(line[3]));
             stats.setGamesLeft(Integer.parseInt(line[4]));
-            stats.setPoints(d.parseDouble(line[5]));
-            stats.setThrees(d.parseDouble(line[6]));
-            stats.setRebounds(d.parseDouble(line[7]));
-            stats.setAssists(d.parseDouble(line[8]));
-            stats.setSteals(d.parseDouble(line[9]));
-            stats.setBlocks(d.parseDouble(line[10]));
-            stats.setTurnovers(d.parseDouble(line[11]));
-            stats.setDD(d.parseDouble(line[12]));
+            stats.setMinutes(d.parseDouble(line[5]));
+            stats.setPoints(d.parseDouble(line[6]));
+            stats.setThrees(d.parseDouble(line[7]));
+            stats.setRebounds(d.parseDouble(line[8]));
+            stats.setAssists(d.parseDouble(line[9]));
+            stats.setSteals(d.parseDouble(line[10]));
+            stats.setBlocks(d.parseDouble(line[11]));
+            stats.setTurnovers(d.parseDouble(line[12]));
+            stats.setDD(d.parseDouble(line[13]));
 
             player.setStats(stats);
-            roster.roster.add(player);
+            roster.getPlayers().add(player);
         }
         return roster;
     }

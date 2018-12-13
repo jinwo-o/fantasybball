@@ -1,7 +1,5 @@
-package ca.fantasybasketball.teamweeklystats.roster;
+package ca.fantasybasketball.teamweeklystats.model;
 
-
-import ca.fantasybasketball.teamweeklystats.player.Player;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,7 +7,15 @@ import java.util.List;
 public class Roster {
 
     //    private String fantasyTeamName;
-    public List<Player> roster = new ArrayList<Player>();
+    private List<Player> players = new ArrayList<Player>();
+
+    public List<Player> getPlayers() {
+        return players;
+    }
+
+    public void setPlayers(List<Player> players) {
+        this.players = players;
+    }
 
     // read player's names and statistics to fill
     // your roster
@@ -37,4 +43,6 @@ public class Roster {
 //
 //    public void put(String playerName, Stats stats) {
 //        roster.put(playerName, stats);
+
+
 }

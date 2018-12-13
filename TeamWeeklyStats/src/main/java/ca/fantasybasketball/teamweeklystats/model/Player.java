@@ -1,6 +1,4 @@
-package ca.fantasybasketball.teamweeklystats.player;
-
-import ca.fantasybasketball.teamweeklystats.stats.Stats;
+package ca.fantasybasketball.teamweeklystats.model;
 
 // Player class represents a player in the NBA
 // there is a unique identifier id, position, and
@@ -12,6 +10,7 @@ public class Player {
     private String team;
     private String position;
     public Stats stats;
+
 
     public String getName() {
         return name;
