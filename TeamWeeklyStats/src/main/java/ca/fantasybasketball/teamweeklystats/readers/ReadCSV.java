@@ -12,17 +12,15 @@ import java.io.IOException;
 // a roster
 public class ReadCSV {
 
-    private static final String csvFile = "/Users/JXH3JJU/fantasy/FantasyCSV.csv";
-
     private ReadCSV() {
     }
 
-    public static Roster CSV_Reader() throws IOException {
+    public static Roster CSV_Reader(String filename) throws IOException {
         String[] line;
         Double d = new Double("1.4");
         Roster roster = new Roster();
 
-        CSVReader reader = new CSVReader(new FileReader("/Users/JXH3JJU/fantasy/FantasyCSV.csv"), ',', '\'', 1);
+        CSVReader reader = new CSVReader(new FileReader(filename), ',', '\'', 1);
 
         while ((line = reader.readNext()) != null) {
             Player player = new Player();

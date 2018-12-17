@@ -13,12 +13,11 @@ public class TeamWeeklyStats {
 
     public static void main(String[] args) throws IOException {
 
-        Roster roster = ReadCSV.CSV_Reader();
-        int i = 0;
+        Roster roster = ReadCSV.CSV_Reader("/Users/JXH3JJU/fantasy/FantasyCSVWeek10_SQUANCH.csv");
         Stats totalStats = new Stats();
         for(Player player : roster.getPlayers()) {
             Stats stats = PlayerWeeklyTotal.calculateWeeklyTotal(player);
-            totalStats = AddStats.total(totalStats, player.getStats());
+            totalStats = AddStats.total(totalStats, stats);
         }
 
         System.out.println("Minutes: "+ totalStats.getMinutes());
