@@ -80,5 +80,8 @@ Add:
 - Incorporate SQL for querying
 -- Design a Database
 
+To extract schedule, go to bball reference schedule and download by month
+To extract player data, go to 
+
 asp.net framework
 svg for frontend
