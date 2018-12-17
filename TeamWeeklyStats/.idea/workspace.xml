@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5be570c5-b7da-4b42-ae87-196e68e8a87b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../FantasyCSV.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../FantasyCSV.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ca/fantasybasketball/teamweeklystats/TeamWeeklyStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/fantasybasketball/teamweeklystats/TeamWeeklyStats.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ca/fantasybasketball/teamweeklystats/readers/ReadCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/fantasybasketball/teamweeklystats/readers/ReadCSV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ca/fantasybasketball/teamweeklystats/TeamWeeklyStats.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/fantasybasketball/teamweeklystats/TeamWeeklyStats.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ca/fantasybasketball/teamweeklystats/readers/ReadCSV.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/fantasybasketball/teamweeklystats/readers/ReadCSV.class" afterDir="false" />
-    </list>
+    <list default="true" id="5be570c5-b7da-4b42-ae87-196e68e8a87b" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -99,8 +92,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ca/fantasybasketball/teamweeklystats/TeamWeeklyStats.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="63" lean-forward="true" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="63" />
+            <state relative-caret-position="578">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
@@ -274,7 +267,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545062991047" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545064544658" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -347,7 +340,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5010846" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5043384" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.10845987" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30604982" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -456,8 +449,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ca/fantasybasketball/teamweeklystats/TeamWeeklyStats.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="63" lean-forward="true" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="63" />
+        <state relative-caret-position="578">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
