@@ -80,6 +80,13 @@ Add:
 - Incorporate SQL for querying
 -- Design a Database
 
+Factors to think about:
+Opponent
+Recent hot streak?
+Days of rest
+Home or away game?
+Unique factor: revenge game, unique player/team matchup, fighting for playoff spot
+
 To extract schedule, go to bball reference schedule and download by month
 To extract player data, go to 
 
