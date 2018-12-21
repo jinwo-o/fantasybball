@@ -95,4 +95,5 @@ svg for frontend
 
 Worked with the search team to create a report processor to analyze data using Solr Apache
 
-Manipulated the solr configurations and schema to enhance indexing and querying algorithms for model number scenarios 
+Manipulated the solr configurations and schema to enhance indexing and querying algorithms for model number scenarios
+using tokenizers 
