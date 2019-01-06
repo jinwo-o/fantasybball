@@ -18,17 +18,17 @@ public class TeamWeeklyStats {
         for(Player player : roster.getPlayers()) {
             Stats stats = PlayerWeeklyTotal.calculateWeeklyTotal(player);
             totalStats = AddStats.total(totalStats, stats);
-        }
-
-        System.out.println("Minutes: "+ totalStats.getMinutes());
-        System.out.println("Threes: " + totalStats.getThrees());
-        System.out.println("Rebounds: " + totalStats.getRebounds());
-        System.out.println("Assists: " + totalStats.getAssists());
-        System.out.println("Steals: " + totalStats.getSteals());
-        System.out.println("Blocks: " + totalStats.getBlocks());
-        System.out.println("Turnovers: " + totalStats.getTurnovers());
-        System.out.println("DD: " + totalStats.getDD());
-        System.out.println("Points: " + totalStats.getPoints());
+//        }
+//
+//        System.out.println("Minutes: "+ totalStats.getMinutes());
+//        System.out.println("Threes: " + totalStats.getThrees());
+//        System.out.println("Rebounds: " + totalStats.getRebounds());
+//        System.out.println("Assists: " + totalStats.getAssists());
+//        System.out.println("Steals: " + totalStats.getSteals());
+//        System.out.println("Blocks: " + totalStats.getBlocks());
+//        System.out.println("Turnovers: " + totalStats.getTurnovers());
+//        System.out.println("DD: " + totalStats.getDD());
+//        System.out.println("Points: " + totalStats.getPoints());
     }
 
 }
