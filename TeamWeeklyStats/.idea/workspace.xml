@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c781cf5-8fe0-4d5a-808e-241e4151cc7e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TeamWeeklyStats.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ca/fantasybasketball/teamweeklystats/TeamWeeklyStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/fantasybasketball/teamweeklystats/TeamWeeklyStats.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ca/fantasybasketball/teamweeklystats/readers/ReadCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/fantasybasketball/teamweeklystats/readers/ReadCSV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ca/fantasybasketball/teamweeklystats/TeamWeeklyStats.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/fantasybasketball/teamweeklystats/TeamWeeklyStats.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ca/fantasybasketball/teamweeklystats/model/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/fantasybasketball/teamweeklystats/model/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ca/fantasybasketball/teamweeklystats/model/Roster.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/fantasybasketball/teamweeklystats/model/Roster.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ca/fantasybasketball/teamweeklystats/model/Stats.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/fantasybasketball/teamweeklystats/model/Stats.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ca/fantasybasketball/teamweeklystats/readers/ReadCSV.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/fantasybasketball/teamweeklystats/readers/ReadCSV.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ca/fantasybasketball/teamweeklystats/stats/AddStats.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/fantasybasketball/teamweeklystats/stats/AddStats.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ca/fantasybasketball/teamweeklystats/stats/PlayerWeeklyTotal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/fantasybasketball/teamweeklystats/stats/PlayerWeeklyTotal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ca/fantasybasketball/teamweeklystats/stats/StatsConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/fantasybasketball/teamweeklystats/stats/StatsConstants.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ca/fantasybasketball/teamweeklystats/TeamWeeklyStats.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+            <state relative-caret-position="138">
+              <caret line="17" column="47" lean-forward="true" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,20 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ca/fantasybasketball/teamweeklystats/readers/ReadCSV.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+            <state relative-caret-position="585">
+              <caret line="39" column="55" lean-forward="true" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -217,6 +187,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -276,10 +247,10 @@
     <entry file="file://$PROJECT_DIR$/src/main/main.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/fantasybasketball/teamweeklystats/stats/PlayerWeeklyTotal.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/fantasybasketball/teamweeklystats/TeamWeeklyStats.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        <state relative-caret-position="138">
+          <caret line="17" column="47" lean-forward="true" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -293,20 +264,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/fantasybasketball/teamweeklystats/readers/ReadCSV.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/fantasybasketball/teamweeklystats/stats/PlayerWeeklyTotal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+        <state relative-caret-position="30">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/fantasybasketball/teamweeklystats/TeamWeeklyStats.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/fantasybasketball/teamweeklystats/readers/ReadCSV.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+        <state relative-caret-position="585">
+          <caret line="39" column="55" lean-forward="true" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

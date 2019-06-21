@@ -44,7 +44,18 @@ public class ReadCSV {
             stats.setThrees(d.parseDouble(line[7]));
             stats.setRebounds(d.parseDouble(line[8]));
             stats.setAssists(d.parseDouble(line[9]));
-            stats.setSteals(d.parseDouble(line[10]));
+            stats.setSteals(d.parseDouble(line[10])
+
+
+
+
+
+
+
+
+
+
+            );
             stats.setBlocks(d.parseDouble(line[11]));
             stats.setTurnovers(d.parseDouble(line[12]));
             stats.setDD(d.parseDouble(line[13]));
