@@ -3,10 +3,16 @@ package ca.fantasybasketball.teamweeklystats.readers;
 import ca.fantasybasketball.teamweeklystats.model.Player;
 import ca.fantasybasketball.teamweeklystats.model.Roster;
 import ca.fantasybasketball.teamweeklystats.model.Stats;
+import com.opencsv.CSVParser;
+import com.opencsv.CSVParserBuilder;
 import com.opencsv.CSVReader;
+import com.opencsv.CSVReaderBuilder;
+
 
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.StringReader;
+import java.io.File;
 
 // Read the CSV File and enter the lines into
 // a roster
@@ -17,15 +23,17 @@ public class ReadCSV {
 
     public static Roster CSV_Reader(String filename) throws IOException {
         String[] line;
-        Double d = new Double("1.4");
+        Double d = 1.4;
         Roster roster = new Roster();
+        System.out.println(d);
+//        final CSVParser parser = new CSVParserBuilder().withSeparator('\t').withIgnoreQuotations(true).build();
+//        final CSVReader reader = new CSVReaderBuilder(new StringReader(csv)).withSkipLines(1).withCSVParser(parser).build();
 
-        CSVReader reader = new CSVReader(new FileReader(filename), ',', '\'', 1);
-
+        final CSVParser parser = new CSVParserBuilder().withSeparator(',').build();
+        final CSVReader reader = new CSVReaderBuilder(new FileReader(filename)).withSkipLines(1).withCSVParser(parser).build();
         while ((line = reader.readNext()) != null) {
             Player player = new Player();
             Stats stats = new Stats();
-
             player.setName(line[0]);
             player.setTeam(line[1]);
             player.setPosition(line[2]);

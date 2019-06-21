@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/fantasy.iml" filepath="$PROJECT_DIR$/fantasy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/opencsv.iml" filepath="$PROJECT_DIR$/opencsv.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fantasybball.iml" filepath="$PROJECT_DIR$/fantasybball.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TeamWeeklyStats/src/main/main.iml" filepath="$PROJECT_DIR$/TeamWeeklyStats/src/main/main.iml" />
     </modules>
   </component>
 </project>
