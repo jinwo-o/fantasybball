@@ -22,12 +22,10 @@ public class ReadCSV {
     }
 
     public static Roster CSV_Reader(String filename) throws IOException {
+
         String[] line;
         Double d = 1.4;
         Roster roster = new Roster();
-        System.out.println(d);
-//        final CSVParser parser = new CSVParserBuilder().withSeparator('\t').withIgnoreQuotations(true).build();
-//        final CSVReader reader = new CSVReaderBuilder(new StringReader(csv)).withSkipLines(1).withCSVParser(parser).build();
 
         final CSVParser parser = new CSVParserBuilder().withSeparator(',').build();
         final CSVReader reader = new CSVReaderBuilder(new FileReader(filename)).withSkipLines(1).withCSVParser(parser).build();
