@@ -40,3 +40,6 @@ Points: 303.8
 
 Next Step:
 Create an SQL Database
+Create a RESTAPI to make get/pull/put requests
+Use Docker to create containers for SQL, backend, frontend
+Use TRAVIS CI to test
