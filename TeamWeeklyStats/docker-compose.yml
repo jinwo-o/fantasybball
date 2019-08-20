@@ -4,12 +4,12 @@ services:
         container_name: mysqldb
         build: ./sql
         environment:
-            - MYSQL_ROOT_PASSWORD=waterloo
+            - MYSQL_ROOT_PASSWORD=root1234
             - MYSQL_ROOT_HOST=%
-            - MYSQL_DATABASE=JTree
+            - MYSQL_DATABASE=NBA_2019
         ports:
             - "3306:3306"
-            - "33060:33060"
+            # - "33060:33060"
 
     # jtree:
     #    container_name: jtree
