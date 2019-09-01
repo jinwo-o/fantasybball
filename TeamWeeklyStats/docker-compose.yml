@@ -6,7 +6,7 @@ services:
         environment:
             - MYSQL_ROOT_PASSWORD=root1234
             - MYSQL_ROOT_HOST=%
-            - MYSQL_DATABASE=NBA_2019
+            - MYSQL_DATABASE=NBA_19_20
         ports:
             - "3306:3306"
             # - "33060:33060"
