@@ -1,0 +1,8 @@
+ca/fantasybasketball/teamweeklystats/model/Roster.class
+ca/fantasybasketball/teamweeklystats/stats/AddStats.class
+ca/fantasybasketball/teamweeklystats/stats/PlayerWeeklyTotal.class
+ca/fantasybasketball/teamweeklystats/stats/StatsConstants.class
+ca/fantasybasketball/teamweeklystats/readers/ReadCSV.class
+ca/fantasybasketball/teamweeklystats/TeamWeeklyStats.class
+ca/fantasybasketball/teamweeklystats/model/Stats.class
+ca/fantasybasketball/teamweeklystats/model/Player.class
